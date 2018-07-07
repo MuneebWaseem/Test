@@ -13,15 +13,15 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-router.get('/', function(req, res) {
-    res.send('Welcome to our API!');
-});
+// router.get('/', function(req, res) {
+//     res.send('Welcome to our API!');
+// });
  
-router.get('/users', function(req, res) {
-    res.json([
-        { name: "Brian" }
-    ]);
-});
+// router.get('/users', function(req, res) {
+//     res.json([
+//         { name: "Brian" }
+//     ]);
+// });
 
 var server = app.listen(8080, function () {
 
