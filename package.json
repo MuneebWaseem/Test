@@ -1,6 +1,18 @@
 {
-  "name": "bookstore",
-  "main": "app.js",
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "*",
@@ -16,5 +28,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
+  },
+  "engines": {
+    "node": "8.11.3"
   }
 }
